@@ -1,0 +1,62 @@
+body {
+	display: flex;
+	min-height: 100vh;
+    flex-direction: column; 
+    /* background: url("../images/3.jpg"); */
+}
+
+.content {
+	flex: 1 0 auto;
+} 
+
+.header{
+    height: 150px
+}
+
+.logo{
+    height: 150px;
+}
+
+.footer {
+    border-top: 3px solid blanchedalmond;
+    font-size: 20%;
+    color: black;
+}
+
+h4{
+    font-family: 'Fredericka the Great', cursive;
+    color: black;
+    font-size: 90%;
+}
+
+p {
+	font-size: 22px;
+}
+
+h6{
+    color: white;
+    font-size: 10px;
+
+}
+
+#word {
+    border: 1px solid white;
+    
+}
+
+.text{
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+	
+	#left-image {
+		display: none;
+	}
+	
+	p {
+		font-size: 20px;
+	}
+
+}
+
